@@ -1,0 +1,80 @@
+{
+    "groupName": "南京运维平台后台管理",
+    "menuItems": [
+        {
+            "class": "icon01",
+            "view": "Home",
+            "title": "虚拟巡检"
+        },
+      {
+        "class": "icon06",
+        "title": "资料管理",
+        "childs": [
+          { "view": "/Admin/DesignData", "title": "设计资料" },
+          { "view": "/Admin/ShiGongDesign", "title": "施工资料" },
+          { "view": "/Admin/OperationData", "title": "运维资料" }
+        ]
+      },
+        {
+            "class": "icon02",
+            "title": "设施管理",
+            "childs": [
+                { "view": "/FacilityManage/MaintenanceManage", "title": "维护管理" },
+                { "view": "/FacilityManage/weixiuManage", "title": "维修管理" },
+                { "view": "/FacilityManage/RepairPlan", "title": "抢修预案" }
+            ]
+        },
+        {
+            "class": "icon03",
+            "title": "安全管理",
+            "childs": [
+                { "view": "/SafetyManage/Video", "title": "视频监控" },
+                { "view": "/SafetyManage/FireManage", "title": "消防管理" },
+                { "view": "/SafetyManage/ElectronicPatrol", "title": "电子巡更" }
+            ]
+        },
+        {
+            "class": "icon04",
+            "title": "BA管理",
+            "childs": [
+                { "view": "/BA/AirConditioner", "title": "空调管理" },
+                { "view": "/BA/SendAir", "title": "送排风管理" },
+                { "view": "/BA/SendWater", "title": "给排水管理" },
+                { "view": "/BA/Light", "title": "智能照明管理" },
+                { "view": "/BA/ActiveManage", "title": "动力系统管理" },
+                { "view": "/BA/Electric", "title": "输变电管理" },
+                { "view": "/BA/Elevator", "title": "电梯管理" }
+            ]
+        },
+
+        {
+            "class": "icon05",
+            "title": "能耗管理",
+            "childs": [
+                { "view": "/EnergyManage/EnergyStatistics", "title": "能源概览" },
+                { "view": "/EnergyManage/EnergySaving", "title": "能耗详情" },
+                { "view": "/EnergyManage/EnergyFenXi", "title": "数据报表" }
+            ]
+        },
+
+        {
+            "class": "icon07",
+            "title": "系统管理",
+            "childs": [
+                { "view": "/System/UserManage", "title": "用户管理" },
+                { "view": "/System/AuthorManage", "title": "权限管理" },
+                { "view": "/System/DailyLog", "title": "工作日志" }
+                    ]
+        },
+        {
+            "class": "icon08",
+            "title": "服务中心",
+            "childs": [
+                { "view": "/ServeManage/Duty", "title": "任务分配" },
+                { "view": "/ServeManage/WorkOrder", "title": "工单编制" },
+                { "view": "/ServeManage/Calendar", "title": "日历表" },
+                { "view": "/ServeManage/Satisfaction", "title": "满意度调查" }
+            ]
+        }
+    ]
+}
