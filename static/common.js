@@ -3,7 +3,7 @@ var com={
   ajax:function (opt) {
     axios({
       method: opt.method||'post',
-      url: (opt.base||'http://jasobim.com.cn:8080/iot/api')+opt.url,
+      url: (opt.base||'http://jasobim.com.cn/iot/api')+opt.url,
       params: opt.params||{},
     }).then(function (response) {
       opt.success(response.data);

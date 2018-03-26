@@ -13,7 +13,7 @@
           <td>{{list.id}}</td>
           <td>{{list.remark}}</td>
           <td>{{list.filetype}}</td>
-          <td><a v-bind:href="'http://jasobim.com.cn:8080/iot/'+list.fileurl" v-bind:download="list.id">下载</a></td>
+          <td><a v-bind:href="'http://jasobim.com.cn/iot/'+list.fileurl" v-bind:download="list.id">下载</a></td>
         </tr>
       </table>
       <el-pagination
